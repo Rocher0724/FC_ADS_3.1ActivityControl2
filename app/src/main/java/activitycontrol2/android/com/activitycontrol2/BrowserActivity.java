@@ -40,6 +40,10 @@ public class BrowserActivity extends AppCompatActivity {
 
         // zoom 사용 설정 - 선택적
         webView.getSettings().setSupportZoom(true);
+        webView.getSettings().setBuiltInZoomControls(true);
+        webView.getSettings().setUseWideViewPort(true);
+        webView.getSettings().setLoadWithOverviewMode(true);
+
 
         // 웹뷰 클라이언트를 지정  - 크롬
         webView.setWebViewClient(new WebViewClient());
