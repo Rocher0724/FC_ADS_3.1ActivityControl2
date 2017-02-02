@@ -17,7 +17,7 @@
 ```java
     // 웹뷰 클라이언트를 지정... (안하면 내장 웹브라우저가 팝업된다.)
     webView.setWebViewClient(new WebViewClient());
-    // 둘다 세팅할것 : http 프로토콜을 ChromeClient 가 처리해 주지 않음 (강제 옵션이 있는지는 각자 확인)
+    // 둘다 세팅할것 : http 프로토콜을 ChromeClient 가 처리해 주지 않음
     webView.setWebChromeClient(new WebChromeClient());
 ```
 * url 호출 기본함수
