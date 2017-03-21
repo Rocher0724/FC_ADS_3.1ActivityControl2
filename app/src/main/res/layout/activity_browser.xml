@@ -23,7 +23,7 @@
         android:ems="10"
         android:id="@+id/urlEt"
         app:layout_constraintLeft_toRightOf="@+id/backBtn"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintRight_toLeftOf="@+id/goBtn"
         app:layout_constraintTop_toTopOf="@+id/backBtn"
         android:hint="http://" />
